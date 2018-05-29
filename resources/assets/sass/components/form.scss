@@ -1,0 +1,74 @@
+$input-text-height: 40px;
+
+.input-text {
+    border: 0;
+    background: #fff;
+    padding: 0 0 0 20px;
+    width: 100%;
+    height: $input-text-height;
+    line-height: $input-text-height;
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: $font-family;
+}
+
+.form-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.textarea {
+    width: 100%;
+    border: 0;
+    padding: 15px 0 0 20px;
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: $font-family;
+}
+
+.from-row_icon {
+    position: relative;
+    line-height: normal;
+
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url('#{$img-url}sprite.png');
+        background-repeat: no-repeat;
+    }
+
+    .input-text {
+        padding-left: 33px;
+    }
+
+    &-location {
+        &::before {
+            top: 12px;
+            left: 9px;
+            width: 11px;
+            height: 15px;
+            background-position: 0 -22px;
+        }
+    }
+
+    &-calendar {
+        &::before {
+            top: 12px;
+            left: 9px;
+            width: 14px;
+            height: 14px;
+            background-position: -12px -22px;
+        }
+    }
+
+    &-passengers {
+        &::before {
+            top: 12px;
+            left: 14px;
+            width: 7px;
+            height: 16px;
+            background-position: -27px -22px;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.contacts {
+
+    &-map {
+        padding-bottom: 35px;
+        position: relative;
+        & .map-overlay {
+            position: absolute;
+            z-index: 99;
+            background: white;
+            top: 10px;
+            left: 50px;
+            padding: 20px;
+            font-size: 14px;
+            line-height: 26px;
+        }
+    }
+
+    &-form {
+        background: $default-color-grey;
+        padding: 35px 135px 40px 135px;
+
+        .from-row {
+            padding-bottom: 22px;
+        }
+
+        .form-column {
+            .from-row {
+                width: 212px;
+            }
+        }
+
+        .textarea {
+            height: 85px;
+        }
+    }
+}

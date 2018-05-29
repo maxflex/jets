@@ -1,0 +1,60 @@
+$catalog-item-width: 325px;
+
+.catalog {
+    margin: 0;
+    padding: 0 0 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item {
+        width: $catalog-item-width;
+        padding: 0 0 40px;
+    }
+
+    &__image {
+        padding: 0 0 10px;
+
+        img {
+            max-width: $catalog-item-width;
+        }
+    }
+
+    &__title {
+        font-size: 21px;
+        text-align: center;
+        padding: 0 0 15px;
+        font-family: 'Yeseva';
+    }
+}
+
+.catalog-feature {
+    margin: 0;
+    padding: 0 0 25px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    &__item {
+        width: 105px;
+        border-left: 1px solid #bebebe; 
+        font-size: 12px;
+        color: #6c6c6c;
+        text-align: center;
+        line-height: 14px;
+        padding: 0 5px;
+    }
+
+    &__title {
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: bold;
+        color: #000;
+        padding-bottom: 5px; 
+    }
+
+    li:first-child {
+        border: 0;
+    }
+}

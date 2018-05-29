@@ -1,0 +1,24 @@
+.services {
+    padding: 80px 0 100px;
+    &-list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        & > div {
+            width: 32%;
+            text-align: center;
+            margin-bottom: 80px;
+            & img {
+                width: 80px;
+            }
+            & b {
+                display: block;
+                margin: 15px 0 20px;
+                color: $default-color-link;
+            }
+            & div {
+                color: $color-grey;
+            }
+        }
+    }
+}

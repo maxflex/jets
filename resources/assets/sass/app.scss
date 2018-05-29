@@ -1,0 +1,27 @@
+@import 'config';
+
+@import 'base/font';
+@import 'base/reset';
+@import 'base/body';
+
+
+@import 'modules/general';
+@import 'modules/animation';
+@import 'modules/media';
+
+@import 'components/header';
+@import 'components/footer';
+@import 'components/button';
+@import 'components/breadcrumbs';
+@import 'components/tabs';
+@import 'components/catalog';
+@import 'components/button-more';
+@import 'components/text';
+@import 'components/services';
+@import 'components/contacts';
+@import 'components/form';
+@import 'components/detail';
+@import 'components/popular';
+@import 'components/last-flights';
+
+@import "style";

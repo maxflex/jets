@@ -1,0 +1,27 @@
+.button {
+    display: inline-block;
+    border: 1px solid $button-border-color;
+    padding: 10px 15px 9px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: $border-radius;
+    font-size: 14px;
+    background: none;
+    text-transform: uppercase;
+    color: $button-border-color;
+
+    &_large {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: bold;
+    }
+
+    &_white {
+        color: #fff;
+        border: 1px solid #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}

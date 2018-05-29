@@ -1,0 +1,62 @@
+/**
+ *  Font
+ */
+ /*
+
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('#{$font-url}HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}HelveticaNeue.woff') format('woff'),
+         url('#{$font-url}HelveticaNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueBold';
+    src: url('#{$font-url}HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}HelveticaNeue-Bold.woff') format('woff'),
+         url('#{$font-url}HelveticaNeue-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+@font-face {
+	font-family: 'HelveticaNeueRegular';
+	src: url('../fonts/HelveticaNeue.eot');
+    src: local('Helvetica Neue Bold'), 
+         local('HelveticaNeue'), 
+         url('../fonts/HelveticaNeue.woff') format('woff'), 
+         url('../fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Cambria';
+    src: url('#{$font-url}Cambria.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}Cambria.woff') format('woff'),
+         url('#{$font-url}Cambria.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yeseva';
+    src: url('#{$font-url}YesevaOne.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}YesevaOne.woff') format('woff'),
+         url('#{$font-url}YesevaOne.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+@font-face {
+    font-family: 'HelveticaNeueRegular';
+    src: url('#{$font-url}HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}HelveticaNeue.woff') format('woff'),
+         url('#{$font-url}HelveticaNeue.ttf') format('truetype'),
+         url('#{$font-url}fontname.svg#FontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
