@@ -1,4 +1,4 @@
-<div
+<div id="contacts"
     class="content-center">
     <h1 class="h1_line">
         Контакты
@@ -32,10 +32,7 @@
         			НАПИСАТЬ НАМ
         		</h3>
 
-        		<div
-        			class="form-column">
-
-        			<div
+        			<div style='width: 250px'
         				class="from-row">
         				<input v-model="request.name"
         					type="text"
@@ -44,7 +41,7 @@
         				/>
         			</div>
 
-        			<div
+        			<div style='width: 250px'
         				class="from-row">
         				<input
         					type="text"
@@ -55,16 +52,16 @@
         				/>
         			</div>
 
-        			<div
+        			<div style='width: 250px; position: relative'
         				class="from-row">
         				<input v-model="request.email"
         					type="text"
         					class="input-text"
         					placeholder="E-mail"
         				/>
+                        <span class="text-gray" style='position: absolute; right: -150px; top: 7px;'>(не обязательно)</span>
         			</div>
 
-        		</div>
 
         		<div
         			class="from-row">
@@ -85,7 +82,7 @@
         		</div>
             </div>
             <div v-show="request_sent">
-                <h3 style='margin: 0; color: #2cb565'>Сообщение отправлено!</h3>
+                <h3 class="request-sent">Сообщение отправлено!</h3>
             </div>
     	</form>
     </div>

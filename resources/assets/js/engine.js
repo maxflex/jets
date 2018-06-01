@@ -29,3 +29,9 @@ newMarker = function(latLng, map) {
     lng: latLng.lng(),
   });
 };
+
+scrollMenu = (id) => {
+    $('html, body').animate({
+        scrollTop: $("#" + id).offset().top
+    }, 500);
+}

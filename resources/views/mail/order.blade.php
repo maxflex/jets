@@ -1,12 +1,12 @@
-<div class="">
+<div>
     Имя: {{ @$request->name }}
 </div>
-<div class="">
+<div>
     Телефон: {{ @$request->phone }}
 </div>
-<div class="">
+<div>
     Email: {{ @$request->email }}
 </div>
-<div class="">
+<div>
     Сообщение: {{ @$request->message }}
 </div>

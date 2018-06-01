@@ -1,7 +1,7 @@
 <div
     class="header-large">
 
-    <header
+    <header id="header"
         class="header">
         <div
             class="header__wrapper">
@@ -32,40 +32,40 @@
                 class="header-menu">
                 <li
                     class="header-menu__item header-menu__item_active">
-                    <a
-                        href="#"
+                    <a onclick="scrollMenu('about')"
+                        href="#about"
                         title="О компании">
                         О компании
                     </a>
                 </li>
                 <li
                     class="header-menu__item">
-                    <a
-                        href="#"
+                    <a onclick="scrollMenu('aviapark')"
+                        href="#aviapark"
                         title="Парк Самолётов">
                         Парк Самолётов
                     </a>
                 </li>
                 <li
                     class="header-menu__item">
-                    <a
-                        href="#"
-                        title="Информация">
-                        Информация
+                    <a onclick="scrollMenu('destinations')"
+                        href="#destinations"
+                        title="Направления">
+                        Направления
                     </a>
                 </li>
                 <li
                     class="header-menu__item">
-                    <a
-                        href="#"
+                    <a onclick="scrollMenu('services')"
+                        href="#services"
                         title="Услуги">
                         Услуги
                     </a>
                 </li>
                 <li
                     class="header-menu__item">
-                    <a
-                        href="#"
+                    <a onclick="scrollMenu('contacts')"
+                        href="#contacts"
                         title="Контакты">
                         Контакты
                     </a>
@@ -86,11 +86,11 @@
             Быстрый запрос стоимости аренды самолета
         </h1>
 
-        <form
+        <form v-if="!request_top_sent"
             class="header-search__form">
             <div
                 class="from-row from-row_icon from-row_icon-location">
-                <input
+                <input v-model="request_top.from"
                     type="text"
                     class="input-text"
                     placeholder="Откуда"
@@ -98,7 +98,7 @@
             </div>
             <div
                 class="from-row from-row_icon from-row_icon-location">
-                <input
+                <input v-model="request_top.to"
                     type="text"
                     class="input-text"
                     placeholder="Куда"
@@ -106,25 +106,23 @@
             </div>
             <div
                 class="from-row from-row_icon from-row_icon-calendar">
-                <input
-                    type="text"
-                    class="input-text"
-                    placeholder="Дата вылета"
-                />
+                <datepicker placeholder="Дата вылета" v-model="request_top.date" :language="ru"></datepicker>
             </div>
             <div
                 class="from-row from-row_icon from-row_icon-passengers">
-                <input
+                <input v-model="request_top.passengers"
                     type="text"
                     class="input-text"
                     placeholder="Пасажиры"
                 />
             </div>
-            <button
-                type="submit"
+            <button @click.prevent="makeRequestTop"
                 class="header-search__button">
             </button>
         </form>
+        <div v-else>
+            <h2 class="request-sent" style='color: white'>Сообщение отправлено!</h2>
+        </div>
     </div>
 
 </div>

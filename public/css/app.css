@@ -914,11 +914,13 @@ a {
   position: absolute;
   z-index: 99;
   background: white;
-  top: 10px;
+  top: 30px;
   left: 50px;
   padding: 20px;
   font-size: 14px;
   line-height: 26px;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .contacts-form {
@@ -938,7 +940,8 @@ a {
   height: 85px;
 }
 
-.input-text {
+.input-text,
+.vdp-datepicker input {
   border: 0;
   background: #fff;
   padding: 0 0 0 20px;
@@ -980,9 +983,12 @@ a {
   position: absolute;
   background-image: url(/images/sprite.png?246336ad82423d2b8ffb849b55122265);
   background-repeat: no-repeat;
+  z-index: 9;
 }
 
-.from-row_icon .input-text {
+.from-row_icon .input-text,
+.from-row_icon .vdp-datepicker input,
+.vdp-datepicker .from-row_icon input {
   padding-left: 33px;
 }
 
@@ -1255,6 +1261,7 @@ a {
   font-weight: bold;
   font-size: 28px;
   overflow: hidden;
+  text-transform: uppercase;
 }
 
 .last-flights-board__date {
@@ -1297,5 +1304,26 @@ a {
 
 .text-gray {
   color: #6c6c6c;
+}
+
+.vdp-datepicker {
+  color: #6b6b6b;
+}
+
+.vdp-datepicker__calendar .cell.selected {
+  background: #b1936d !important;
+  color: white !important;
+}
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover,
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+  border: 1px solid #b1936d !important;
+}
+
+.request-sent {
+  color: #4CAF50;
+  margin: 0;
+  text-align: center;
 }
 

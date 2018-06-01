@@ -13,6 +13,8 @@ require('./engine');
 
 window.Vue = require('vue');
 
+
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -20,17 +22,41 @@ window.Vue = require('vue');
  */
 
 import VueTheMask from 'vue-the-mask'
+import Datepicker from 'vuejs-datepicker';
+import {ru} from "vuejs-datepicker/src/locale";
+import moment from 'moment';
+import destinations from './destinations';
+import Cookies from 'js-cookie';
 
 Vue.use(VueTheMask)
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
     el: '#app',
-    data: () => {
+    components: {
+        Datepicker
+    },
+    created() {
+        this.destinations = Cookies.get('destinations')
+        if (this.destinations === undefined) {
+            var shuffled = destinations.sort(() => .5 - Math.random())
+            this.destinations = shuffled.slice(0, 3)
+            Cookies.set('destinations', JSON.stringify(this.destinations), { expires: 1 })
+        } else {
+            this.destinations = JSON.parse(this.destinations)
+        }
+        this.destinations = this.destinations.map((d) => {
+            return [d[0].split(''), d[1].split('')];
+        })
+    },
+    data() {
         return {
             avia_page: 'low',
-            request: {},
-            request_sent: false
+            request: {top: false},
+            request_sent: false,
+            request_top: {top: true},
+            request_top_sent: false,
+            ru: ru,
         }
     },
     methods: {
@@ -38,6 +64,14 @@ const app = new Vue({
             this.request_sent = true
             axios.post('/api/request', this.request).then(function() {
             }.bind(this))
+        },
+        makeRequestTop: function () {
+            this.request_top_sent = true
+            axios.post('/api/request', this.request_top).then(function() {
+            }.bind(this))
+        },
+        getDate: (minus_days = 1) => {
+            return moment().subtract(minus_days, 'days').format('DD/MM').split('')
         }
     },
 });

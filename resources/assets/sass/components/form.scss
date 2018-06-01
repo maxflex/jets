@@ -36,6 +36,7 @@ $input-text-height: 40px;
         position: absolute;
         background-image: url('#{$img-url}sprite.png');
         background-repeat: no-repeat;
+        z-index: 9;
     }
 
     .input-text {

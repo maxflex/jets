@@ -1,4 +1,4 @@
-<div
+<div id="destinations"
     class="popular">
     <div
         class="content-center">

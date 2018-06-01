@@ -35,32 +35,16 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>1</span>
-                                <span>2</span>
-                                <span>/</span>
-                                <span>0</span>
-                                <span>2</span>
+                                <span v-for="char in getDate()">@{{ char }}</span>
                             </div>
                         </td>
                         <td
                             colspan="2">
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>Р</span>
-                                <span>О</span>
-                                <span>С</span>
-                                <span>С</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[0][0]">@{{ char }}</span>
                                 <span>-</span>
-                                <span>Г</span>
-                                <span>Е</span>
-                                <span>Р</span>
-                                <span>М</span>
-                                <span>А</span>
-                                <span>Н</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[0][1]">@{{ char }}</span>
                             </div>
                         </td>
                         <td>
@@ -81,32 +65,16 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>1</span>
-                                <span>2</span>
-                                <span>/</span>
-                                <span>0</span>
-                                <span>2</span>
+                                <span v-for="char in getDate(2)">@{{ char }}</span>
                             </div>
                         </td>
                         <td
                             colspan="2">
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>Р</span>
-                                <span>О</span>
-                                <span>С</span>
-                                <span>С</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[1][0]">@{{ char }}</span>
                                 <span>-</span>
-                                <span>Г</span>
-                                <span>Е</span>
-                                <span>Р</span>
-                                <span>М</span>
-                                <span>А</span>
-                                <span>Н</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[1][1]">@{{ char }}</span>
                             </div>
                         </td>
                         <td>
@@ -127,32 +95,16 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>1</span>
-                                <span>2</span>
-                                <span>/</span>
-                                <span>0</span>
-                                <span>2</span>
+                                <span v-for="char in getDate(3)">@{{ char }}</span>
                             </div>
                         </td>
                         <td
                             colspan="2">
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>Р</span>
-                                <span>О</span>
-                                <span>С</span>
-                                <span>С</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[2][0]">@{{ char }}</span>
                                 <span>-</span>
-                                <span>Г</span>
-                                <span>Е</span>
-                                <span>Р</span>
-                                <span>М</span>
-                                <span>А</span>
-                                <span>Н</span>
-                                <span>И</span>
-                                <span>Я</span>
+                                <span v-for="char in destinations[2][1]">@{{ char }}</span>
                             </div>
                         </td>
                         <td>

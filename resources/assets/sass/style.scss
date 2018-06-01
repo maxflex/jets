@@ -24,3 +24,25 @@
 .text-gray {
     color: $color-grey;
 }
+
+.vdp-datepicker {
+    color: #6b6b6b;
+    & input {
+        @extend .input-text;
+    }
+}
+
+.vdp-datepicker__calendar .cell.selected {
+    background: #b1936d !important;
+    color: white !important;
+}
+
+.vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover, .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+        border: 1px solid #b1936d !important;
+}
+
+.request-sent {
+    color: #4CAF50;
+    margin: 0;
+    text-align: center;
+}
