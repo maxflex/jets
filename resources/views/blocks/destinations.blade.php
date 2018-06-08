@@ -14,40 +14,40 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/sochi.jpg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
                     <div
                         class="popular-list__title">
-                        Греция
+                        Россия
                     </div>
                     <ul class="popular-list__prices">
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Сочи
                             </span>
                             <b>
-                                1 000 $
+                                15 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Санкт-Петербург
                             </span>
                             <b>
-                                4 000 $
+                                12 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Москва - Краснодар
                             </span>
                             <b>
-                                10 000 $
+                                13 000 €
                             </b>
                         </li>
                     </ul>
@@ -58,40 +58,40 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/france.jpg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
                     <div
                         class="popular-list__title">
-                        Греция
+                        Франция
                     </div>
                     <ul class="popular-list__prices">
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Париж
                             </span>
                             <b>
-                                1 000 $
+                                20 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Ницца
                             </span>
                             <b>
-                                4 000 $
+                                20 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Санкт-Петербург - Ницца 
                             </span>
                             <b>
-                                10 000 $
+                                17 000 €
                             </b>
                         </li>
                     </ul>
@@ -102,7 +102,7 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/Greece.jpeg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
@@ -114,28 +114,28 @@
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Афины
                             </span>
                             <b>
-                                1 000 $
+                                18 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Крит
                             </span>
                             <b>
-                                4 000 $
+                                17 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Москва - Миконос
                             </span>
                             <b>
-                                10 000 $
+                                18 000 €
                             </b>
                         </li>
                     </ul>
@@ -146,40 +146,40 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/Spain.jpg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
                     <div
                         class="popular-list__title">
-                        Греция
+                        Испания
                     </div>
                     <ul class="popular-list__prices">
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Барселона
                             </span>
                             <b>
-                                1 000 $
+                                30 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Мадрид
                             </span>
                             <b>
-                                4 000 $
+                                29 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Москва - Ибица
                             </span>
                             <b>
-                                10 000 $
+                                30 000 €
                             </b>
                         </li>
                     </ul>
@@ -190,40 +190,40 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/england.jpg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
                     <div
                         class="popular-list__title">
-                        Греция
+                        Англия
                     </div>
                     <ul class="popular-list__prices">
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Лондон
                             </span>
                             <b>
-                                1 000 $
+                                25 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Ливерпуль
                             </span>
                             <b>
-                                4 000 $
+                                27 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Москва - Ньюкасл
                             </span>
                             <b>
-                                10 000 $
+                                27 000 €
                             </b>
                         </li>
                     </ul>
@@ -234,40 +234,40 @@
                 class="popular-list__item">
                 <div
                     class="popular-list__img">
-                    <img src="../pictures/img4.jpg" alt="IMG" />
+                    <img src="../pictures/destinations/asia.jpg" alt="IMG" />
                 </div>
                 <div
                     class="popular-list__inner">
                     <div
                         class="popular-list__title">
-                        Греция
+                        Азия
                     </div>
                     <ul class="popular-list__prices">
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Москва - Греция
+                                Москва - Токио
                             </span>
                             <b>
-                                1 000 $
+                                90 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Санкт-Петербург - Греция
+                                Москва - Сингапур
                             </span>
                             <b>
-                                4 000 $
+                                110 000 €
                             </b>
                         </li>
                         <li
                             class="popular-list__prices-item">
                             <span>
-                                Париж - Греция
+                                Москва - Гонконг
                             </span>
                             <b>
-                                10 000 $
+                                80 000 €
                             </b>
                         </li>
                     </ul>

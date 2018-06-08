@@ -50,13 +50,13 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>S</span>
+                                <span>G</span>
                                 <span>U</span>
-                                <span>J</span>
-                                <span>E</span>
-                                <span>T</span>
+                                <span>L</span>
+                                <span>F</span>
+                                <span>G</span>
                                 <span>1</span>
-                                <span>0</span>
+                                <span>5</span>
                                 <span>0</span>
                             </div>
                         </td>
@@ -80,14 +80,14 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>S</span>
-                                <span>U</span>
-                                <span>J</span>
+                                <span>C</span>
                                 <span>E</span>
-                                <span>T</span>
-                                <span>1</span>
-                                <span>0</span>
-                                <span>0</span>
+                                <span>S</span>
+                                <span>S</span>
+                                <span>N</span>
+                                <span>С</span>
+                                <span>J</span>
+                                <span>3</span>
                             </div>
                         </td>
                     </tr>
@@ -110,12 +110,12 @@
                         <td>
                             <div
                                 class="last-flights-board__char-wrapper">
-                                <span>S</span>
-                                <span>U</span>
-                                <span>J</span>
-                                <span>E</span>
-                                <span>T</span>
-                                <span>1</span>
+                                <span>F</span>
+                                <span>A</span>
+                                <span>L</span>
+                                <span>C</span>
+                                <span>2</span>
+                                <span>0</span>
                                 <span>0</span>
                                 <span>0</span>
                             </div>

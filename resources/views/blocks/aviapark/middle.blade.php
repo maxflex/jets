@@ -5,15 +5,15 @@
         class="catalog__item">
 
         <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
+            <img src="../pictures/middle/800XP.jpg" alt="IMG" />
         </div>
 
         <div
             class="catalog__title">
             <a
-                title="Cessna Citation Columbus"
+                title="Hawker 800XP"
                 href="#">
-                Cessna Citation Columbus2
+                Hawker 800XP
             </a>
         </div>
 
@@ -23,15 +23,107 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    3 000 км
+                    4 843 км
                 </div>
-                Дальность перелта
+                Дальность перелета
             </li>
             <li
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    800 км/ч
+                    863 км/ч
+                </div>
+                Крейсерская скорость
+            </li>
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    7
+                </div>
+                Количество пассажиров
+            </li>
+        </ul>
+
+    </li>
+
+    <li
+        class="catalog__item">
+
+        <div class="catalog__image">
+            <img src="../pictures/middle/G150.jpg" alt="IMG" />
+        </div>
+
+        <div
+            class="catalog__title">
+            <a
+                title="Gulfstream 150"
+                href="#">
+                Gulfstream G150
+            </a>
+        </div>
+
+        <ul
+            class="catalog-feature">
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    4 815 км
+                </div>
+                Дальность перелета
+            </li>
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    850 км/ч
+                </div>
+                Крейсерская скорость
+            </li>
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    9
+                </div>
+                Количество пассажиров
+            </li>
+        </ul>
+
+    </li>
+
+    <li
+        class="catalog__item">
+
+        <div class="catalog__image">
+            <img src="../pictures/middle/citationX.jpg" alt="IMG" />
+        </div>
+
+        <div
+            class="catalog__title">
+            <a
+                title="Cessna Citation X"
+                href="#">
+                Cessna Citation X
+            </a>
+        </div>
+
+        <ul
+            class="catalog-feature">
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    6 350 км
+                </div>
+                Дальность перелета
+            </li>
+            <li
+                class="catalog-feature__item">
+                <div
+                    class="catalog-feature__title">
+                    991 км/ч
                 </div>
                 Крейсерская скорость
             </li>
@@ -51,15 +143,15 @@
         class="catalog__item">
 
         <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
+            <img src="../pictures/middle/falcon50.jpg" alt="IMG" />
         </div>
 
         <div
             class="catalog__title">
             <a
-                title="Cessna Citation Columbus"
+                title="Dassault Falcon 50EX"
                 href="#">
-                Cessna Citation Columbus
+                Dassault Falcon 50EX
             </a>
         </div>
 
@@ -69,61 +161,15 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    3 000 км
+                    6 084 км
                 </div>
-                Дальность перелта
+                Дальность перелета
             </li>
             <li
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    800 км/ч
-                </div>
-                Крейсерская скорость
-            </li>
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    12
-                </div>
-                Количество пассажиров
-            </li>
-        </ul>
-
-    </li>
-
-    <li
-        class="catalog__item">
-
-        <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
-        </div>
-
-        <div
-            class="catalog__title">
-            <a
-                title="Cessna Citation Columbus"
-                href="#">
-                Cessna Citation Columbus
-            </a>
-        </div>
-
-        <ul
-            class="catalog-feature">
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    3 000 км
-                </div>
-                Дальность перелта
-            </li>
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    800 км/ч
+                    926 км/ч
                 </div>
                 Крейсерская скорость
             </li>
@@ -131,53 +177,7 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    12
-                </div>
-                Количество пассажиров
-            </li>
-        </ul>
-
-    </li>
-
-    <li
-        class="catalog__item">
-
-        <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
-        </div>
-
-        <div
-            class="catalog__title">
-            <a
-                title="Cessna Citation Columbus"
-                href="#">
-                Cessna Citation Columbus
-            </a>
-        </div>
-
-        <ul
-            class="catalog-feature">
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    3 000 км
-                </div>
-                Дальность перелта
-            </li>
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    800 км/ч
-                </div>
-                Крейсерская скорость
-            </li>
-            <li
-                class="catalog-feature__item">
-                <div
-                    class="catalog-feature__title">
-                    12
+                    9
                 </div>
                 Количество пассажиров
             </li>
@@ -188,15 +188,15 @@
         class="catalog__item">
 
         <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
+            <img src="../pictures/middle/legacy500.jpg" alt="IMG" />
         </div>
 
         <div
             class="catalog__title">
             <a
-                title="Cessna Citation Columbus"
+                title="Embraer Legacy 450"
                 href="#">
-                Cessna Citation Columbus
+                Embraer Legacy 450
             </a>
         </div>
 
@@ -206,15 +206,15 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    3 000 км
+                    5 378 км
                 </div>
-                Дальность перелта
+                Дальность перелета
             </li>
             <li
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    800 км/ч
+                    870 км/ч
                 </div>
                 Крейсерская скорость
             </li>
@@ -222,7 +222,7 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    12
+                    7
                 </div>
                 Количество пассажиров
             </li>
@@ -233,15 +233,15 @@
         class="catalog__item">
 
         <div class="catalog__image">
-            <img src="../pictures/img.jpg" alt="IMG" />
+            <img src="../pictures/middle/60xr.jpg" alt="IMG" />
         </div>
 
         <div
             class="catalog__title">
             <a
-                title="Cessna Citation Columbus"
+                title="Bombardier Learjet 60XR"
                 href="#">
-                Cessna Citation Columbus
+                Bombardier Learjet 60XR
             </a>
         </div>
 
@@ -251,15 +251,15 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    3 000 км
+                    4 330 км
                 </div>
-                Дальность перелта
+                Дальность перелета
             </li>
             <li
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    800 км/ч
+                    839 км/ч
                 </div>
                 Крейсерская скорость
             </li>
@@ -267,7 +267,7 @@
                 class="catalog-feature__item">
                 <div
                     class="catalog-feature__title">
-                    12
+                    9
                 </div>
                 Количество пассажиров
             </li>

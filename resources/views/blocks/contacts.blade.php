@@ -12,10 +12,10 @@
             </div>
             <div>
                 <i class="fas fa-mobile-alt text-gray" style='margin-right: 5px'></i>
-                <b>+7 495 7777777</b>
+                <b>+7 495 6629520</b>
             </div>
             <div style='margin-left: 17px'>
-                <b>+7 495 7777777</b>
+                <b></b>
             </div>
             <div style='margin-left: 17px'>
                 <a href='#'>info@erdmanjets.ru</a>
@@ -77,7 +77,7 @@
         			<button @click.prevent="makeRequest"
         				type="button"
         				class="button">
-        				Отпарвить
+        				Отправить
         			</button>
         		</div>
             </div>

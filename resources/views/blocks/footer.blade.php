@@ -123,7 +123,7 @@
                         <a
                             href="#"
                             title="Vессенджеры">
-                            Vессенджеры
+                            Мессенджеры
                         </a>
                     </li>
                 </ul>
@@ -142,11 +142,11 @@
                 class="footer-phone">
                 <li
                     class="footer-phone__item">
-                    +7 495 777 77777
+                    +7 495 662 9520
                 </li>
                 <li
                     class="footer-phone__item">
-                    +7 495 777 77777
+                    +7 495 662 9520
                 </li>
             </ul>
 

@@ -20,11 +20,11 @@
                 class="header-phone">
                 <li
                     class="header-phone__item">
-                    +7 495 7777777
+                    +7 495 6629520
                 </li>
                 <li
                     class="header-phone__item">
-                    +7 495 7777777
+                    info@erdmanjets.com
                 </li>
             </ul>
 
@@ -113,7 +113,7 @@
                 <input v-model="request_top.passengers"
                     type="text"
                     class="input-text"
-                    placeholder="Пасажиры"
+                    placeholder="Пассажиры"
                 />
             </div>
             <button @click.prevent="makeRequestTop"
