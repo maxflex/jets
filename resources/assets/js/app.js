@@ -61,11 +61,19 @@ const app = new Vue({
     },
     methods: {
         makeRequest: function () {
+            if (!this.request.phone) {
+                handleErrorAnimation('request-phone')
+                return
+            }
             this.request_sent = true
             axios.post('/api/request', this.request).then(function() {
             }.bind(this))
         },
         makeRequestTop: function () {
+            if (!this.request_top.phone) {
+                handleErrorAnimation('request-top-phone')
+                return
+            }
             this.request_top_sent = true
             axios.post('/api/request', this.request_top).then(function() {
             }.bind(this))

@@ -35,3 +35,10 @@ scrollMenu = (id) => {
         scrollTop: $("#" + id).offset().top
     }, 500);
 }
+
+handleErrorAnimation = (cls) => {
+    $('.' + cls).focus().removeClass('has-error').addClass('has-error')
+    setTimeout(() => {
+        $('.' + cls).removeClass('has-error')
+    }, 2000)
+}

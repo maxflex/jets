@@ -45,7 +45,7 @@
         				class="from-row">
         				<input
         					type="text"
-        					class="input-text input-phone-mask"
+        					class="input-text input-phone-mask request-phone"
         					placeholder="+7 (___) ___-__-__"
                             v-mask="'+7 (###) ###-##-##'"
                             v-model="request.phone"

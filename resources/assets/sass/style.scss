@@ -46,3 +46,20 @@
     margin: 0;
     text-align: center;
 }
+
+.has-error {
+    animation-name: hasError;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes hasError {
+    from {
+        background: #F44336;
+    }
+    to {
+        background: white;
+    }
+}

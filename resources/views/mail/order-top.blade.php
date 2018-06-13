@@ -8,5 +8,5 @@
     Дата: {{ mb_strimwidth(@$request->date, 0, 10) }}
 </div>
 <div>
-    Пассажиры: {{ @$request->passengers }}
+    Телефон: {{ @$request->phone }}
 </div>

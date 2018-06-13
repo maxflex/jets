@@ -29,7 +29,7 @@
             </ul>
 
             <ul
-                class="header-menu"> 
+                class="header-menu">
                 <li
                     class="header-menu__item">
                     <a onclick="scrollMenu('aviapark')"
@@ -96,23 +96,20 @@
                     placeholder="Куда"
                 />
             </div>
-            
+
             <div
                 class="from-row from-row_icon from-row_icon-calendar">
                 <datepicker placeholder="Дата вылета" v-model="request_top.date" :language="ru"></datepicker>
             </div>
-           
-            <div
-                class="input-phone-mask">
-                <input v-model="request_top.passengers"
-                    type="text"
-        					class="input-text input-phone-mask"
-        					placeholder="+7 (___) ___-__-__"
-                            v-mask="'+7 (###) ###-##-##'"
-                            v-model="request.phone"
+
+            <div class="input-phone-mask">
+                <input type="text" class="input-text input-phone-mask request-top-phone"
+					placeholder="+7 (___) ___-__-__"
+                    v-mask="'+7 (###) ###-##-##'"
+                    v-model="request_top.phone"
                 />
             </div>
-            
+
             <button @click.prevent="makeRequestTop"
                 class="header-search__button">
             </button>
