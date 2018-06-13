@@ -12,7 +12,7 @@
             </div>
             <div>
                 <i class="fas fa-mobile-alt text-gray" style='margin-right: 5px'></i>
-                <b>+7 495 6629520</b>
+                <b>+7 (495) 662-95-20</b>
             </div>
             <div style='margin-left: 17px'>
                 <b></b>

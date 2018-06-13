@@ -16,13 +16,13 @@
                     <tr>
                         <th
                             class="last-flights-board__date">
-                            Дата перелёта
+                            Дата рейса
                         </th>
                         <th>
-                            Страна отправления
+                            Вылет
                         </th>
                         <th>
-                            Страна назначения
+                            Прилет
                         </th>
                         <th
                             class="last-flights-board__model">

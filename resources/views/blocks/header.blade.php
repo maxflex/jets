@@ -9,10 +9,10 @@
             <div
                 class="header__left">
                 <a
-                    title="ERDMAN PRIVATE Jets"
+                    title="Erdman Private Jets"
                     class="header__logo"
                     href="/">
-                    ERDMAN PRIVATE Jets
+                    Erdman Private Jets
                 </a>
             </div>
 
@@ -20,24 +20,16 @@
                 class="header-phone">
                 <li
                     class="header-phone__item">
-                    +7 495 6629520
+                    +7 (495) 662-95-20
                 </li>
                 <li
                     class="header-phone__item">
-                    info@erdmanjets.com
+                    info@erdmanjets.ru
                 </li>
             </ul>
 
             <ul
-                class="header-menu">
-                <li
-                    class="header-menu__item header-menu__item_active">
-                    <a onclick="scrollMenu('about')"
-                        href="#about"
-                        title="О компании">
-                        О компании
-                    </a>
-                </li>
+                class="header-menu"> 
                 <li
                     class="header-menu__item">
                     <a onclick="scrollMenu('aviapark')"
@@ -104,18 +96,23 @@
                     placeholder="Куда"
                 />
             </div>
+            
             <div
                 class="from-row from-row_icon from-row_icon-calendar">
                 <datepicker placeholder="Дата вылета" v-model="request_top.date" :language="ru"></datepicker>
             </div>
+           
             <div
-                class="from-row from-row_icon from-row_icon-passengers">
+                class="input-phone-mask">
                 <input v-model="request_top.passengers"
                     type="text"
-                    class="input-text"
-                    placeholder="Пассажиры"
+        					class="input-text input-phone-mask"
+        					placeholder="+7 (___) ___-__-__"
+                            v-mask="'+7 (###) ###-##-##'"
+                            v-model="request.phone"
                 />
             </div>
+            
             <button @click.prevent="makeRequestTop"
                 class="header-search__button">
             </button>

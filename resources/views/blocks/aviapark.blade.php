@@ -7,13 +7,13 @@
 
     <div class="aviapark-controls">
         <div @click="avia_page = 'low'" :class="{'active': avia_page == 'low'}">
-            малый класс
+            Малый класс
         </div>
         <div @click="avia_page = 'middle'" :class="{'active': avia_page == 'middle'}">
-            средний класс
+            Средний класс
         </div>
         <div @click="avia_page = 'big'" :class="{'active': avia_page == 'big'}">
-            большой класс
+            Большой класс
         </div>
     </div>
 
